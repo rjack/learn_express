@@ -1,0 +1,10 @@
+h1 Log In
+form#sign-in(method: "post", action: action_url)
+	div#username-row
+		label(for: "username") Username:
+		input(id: "user_name", type: "text", name: "user_name")
+	div#password-row
+		label(for: "password") Password:
+		input(id: "user_password", type: "password", name: "user_password")
+	div#buttons-row
+		input(type: "submit", value: "Login")
